@@ -1,0 +1,42 @@
+/home/sivakrishna/.hushlogin file.
+sivakrishna@DESKTOP-9RFAC1V:~$ mkdir lab1
+sivakrishna@DESKTOP-9RFAC1V:~$ ls
+CT     a1.sh.save  a3.sh       exercise4.txt  filelist    lab1          shellexamples  temp.txt  var3.sh
+a1.sh  a2.sh       evenodd.sh  file_2.txt     greater.sh  nano.47.save  tables.sh      var2.sh
+sivakrishna@DESKTOP-9RFAC1V:~$ rw lab1
+rw: command not found
+sivakrishna@DESKTOP-9RFAC1V:~$ cd lab1
+sivakrishna@DESKTOP-9RFAC1V:~/lab1$ pwd
+/home/sivakrishna/lab1
+sivakrishna@DESKTOP-9RFAC1V:~/lab1$ echo "Hello,This is first lab"
+Hello,This is first lab
+sivakrishna@DESKTOP-9RFAC1V:~/lab1$ nano names.txt
+sivakrishna@DESKTOP-9RFAC1V:~/lab1$ cat names.txt
+siva
+karthik
+lakshmi
+ganesh
+rudra
+
+sivakrishna@DESKTOP-9RFAC1V:~/lab1$ touch sivalab1.txt
+sivakrishna@DESKTOP-9RFAC1V:~/lab1$ cp names.txt sivalab1.txt
+sivakrishna@DESKTOP-9RFAC1V:~/lab1$ cat sivalab1.txt
+siva
+karthik
+lakshmi
+ganesh
+rudra
+
+sivakrishna@DESKTOP-9RFAC1V:~/lab1$ rm names.txt
+sivakrishna@DESKTOP-9RFAC1V:~/lab1$ tail -2 sivalab1.txt
+rudra
+
+sivakrishna@DESKTOP-9RFAC1V:~/lab1$ wc -l sivalab1.txt
+6 sivalab1.txt
+sivakrishna@DESKTOP-9RFAC1V:~/lab1$ tail -3 sivalab1.txt
+ganesh
+rudra
+
+sivakrishna@DESKTOP-9RFAC1V:~/lab1$ wc -l sivalab1.txt
+6 sivalab1.txt
+sivakrishna@DESKTOP-9RFAC1V:~/lab1$
